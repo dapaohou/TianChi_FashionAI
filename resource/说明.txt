@@ -1,0 +1,8 @@
+tianchi_vgg.py是主文件
+
+TianChiDataReader.py是训练集读取
+TianChiTestRecorder.py是测试集读取和结果写入
+后两个文件已经模拟测试过，应该没有问题，可以移植到其他网络中
+
+群文件中vgg16.npy是预训练得到的参数
+如果只看代码，不需要vgg.npy，如果需要运行，则要把vgg.npy放入文件夹tensorflow_vgg
